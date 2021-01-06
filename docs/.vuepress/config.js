@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    title: 'd2r wiki',
+    title: 'Desgin To Release Wiki',
     description: 'docs for d2r project',
     configureWebpack: {
         resolve: {
@@ -12,8 +12,20 @@ module.exports = {
     },
     themeConfig: {
         sidebar: [
-            '/',
-            'guide/oc-basis.md'
+            {
+                title: '基于OSX开发Skecth插件',
+                collapsable: false,
+                children: [
+                    'guide/00-intro.md',
+                    'guide/01-startup.md',
+                    'guide/02-oc-basis.md'
+                ]
+            },
+            {
+                title: 'D2R最佳实践',
+                collapsable: false,
+                children: []
+            }
         ],
         lastUpdated: 'Last Updated',
         smoothScroll: true,

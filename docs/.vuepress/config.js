@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    title: 'Desgin To Release Wiki',
+    title: 'Desgin To Release Workflow',
     description: 'docs for d2r project',
     configureWebpack: {
         resolve: {
@@ -11,18 +11,84 @@ module.exports = {
         }
     },
     themeConfig: {
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Github', link: 'https://github.com/design-to-release' },
+        ],
         sidebar: [
+            '/',
             {
-                title: '基于OSX开发Skecth插件',
+                title: '主要概念',
                 collapsable: false,
                 children: [
-                    'guide/00-intro.md',
-                    'guide/01-startup.md',
-                    'guide/02-oc-basis.md'
+                    {
+                        title: '设计语言',
+                        collapsable: false,
+                        children: []
+                    },
+                    {
+                        title: '技术规范',
+                        collapsable: false,
+                        children: []
+                    },
+                    {
+                        title: '业务定义',
+                        collapsable: false,
+                        children: []
+                    }
                 ]
             },
             {
-                title: 'D2R最佳实践',
+                title: '设计工具',
+                collapsable: false,
+                children: []
+            },
+            {
+                title: '生产工具',
+                collapsable: false,
+                children: []
+            },
+            {
+                title: '内置特性',
+                collapsable: false,
+                children: [{title: '模式适配'}, {title: '设备适配'}, {title: '版本管理'}]
+            },
+            {
+                title: '最佳实践',
+                collapsable: false,
+                children: [
+                    {
+                        title: '基于Skecth的D2R',
+                        collapsable: false,
+                        children: [
+
+                        ]
+                    },
+                    {
+                        title: '基于Adobe XD的D2R',
+                        collapsable: false,
+                        children: [
+
+                        ]
+                    }
+                ]
+            },
+            {
+                title: '教程',
+                collapsable: false,
+                children: [
+                    {
+                    title: '基于OSX开发Skecth插件',
+                    collapsable: false,
+                    children: [
+                        'guide/00-intro.md',
+                        'guide/01-startup.md',
+                        'guide/02-oc-basis.md'
+                    ]}
+                ]
+            },
+            {
+                title: '发布信息',
                 collapsable: false,
                 children: []
             }

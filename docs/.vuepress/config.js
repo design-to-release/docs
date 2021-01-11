@@ -83,7 +83,8 @@ module.exports = {
                     children: [
                         'guide/00-intro.md',
                         'guide/01-startup.md',
-                        'guide/02-oc-basis.md'
+                        'guide/02-oc-basis.md',
+                        'guide/02-cocoa.md'
                     ]}
                 ]
             },

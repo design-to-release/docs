@@ -18,34 +18,32 @@ module.exports = {
         sidebar: [
             '/',
             {
-                title: '主要概念',
-                collapsable: false,
+                title: '设计语言',
                 children: [
                     {
-                        title: '设计语言',
-                        collapsable: false,
+                        title: '原子',
                         children: []
                     },
                     {
-                        title: '技术规范',
-                        collapsable: false,
+                        title: '结构',
                         children: []
                     },
                     {
-                        title: '业务定义',
-                        collapsable: false,
+                        title: '编码',
                         children: []
-                    }
+                    },
                 ]
             },
             {
-                title: '设计工具',
-                collapsable: false,
+                title: '工作流程',
                 children: []
             },
             {
-                title: '生产工具',
-                collapsable: false,
+                title: '解决方案',
+                children: []
+            },
+            {
+                title: '技术标准',
                 children: []
             },
             {
@@ -58,14 +56,28 @@ module.exports = {
                 collapsable: false,
                 children: [
                     {
-                        title: '基于Skecth的D2R',
+                        title: '基于Skecth的设计工具',
                         collapsable: false,
                         children: [
 
                         ]
                     },
                     {
-                        title: '基于Adobe XD的D2R',
+                        title: '基于Adobe XD的设计工具',
+                        collapsable: false,
+                        children: [
+
+                        ]
+                    },
+                    {
+                        title: '资产管理平台',
+                        collapsable: false,
+                        children: [
+
+                        ]
+                    },
+                    {
+                        title: '持续集成平台',
                         collapsable: false,
                         children: [
 

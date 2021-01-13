@@ -17,23 +17,8 @@ module.exports = {
         ],
         sidebar: [
             '/',
-            {
-                title: '设计语言',
-                children: [
-                    {
-                        title: '原子',
-                        children: []
-                    },
-                    {
-                        title: '结构',
-                        children: []
-                    },
-                    {
-                        title: '编码',
-                        children: []
-                    },
-                ]
-            },
+            '/language',
+            '/assets',
             {
                 title: '工作流程',
                 children: []

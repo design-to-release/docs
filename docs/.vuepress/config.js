@@ -26,7 +26,8 @@ module.exports = {
             {
                 title: '解决方案',
                 children: [
-                    'solution/d2c'
+                    'solution/d2c',
+                    'solution/property-mapping'
                 ]
             },
             {

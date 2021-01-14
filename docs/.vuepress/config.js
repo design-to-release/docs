@@ -25,11 +25,15 @@ module.exports = {
             },
             {
                 title: '解决方案',
-                children: []
+                children: [
+                    'solution/d2c'
+                ]
             },
             {
                 title: '技术标准',
-                children: []
+                children: [
+                    'standard/dsl'
+                ]
             },
             {
                 title: '内置特性',

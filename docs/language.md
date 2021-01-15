@@ -35,7 +35,7 @@
 组件内的所有原子共用一个坐标系统，该坐标系统的原点为组件位置。
 
 <br>
-<img src="~@assets/language/c-a-relation.gif" height=280 />
+<img src="~@assets/language/c-a-relation.jpg" width=546 height=330/>
 <br>
 <br>
 
@@ -57,8 +57,8 @@
 * **栅格布局** 区块内子元素按照栅格大小布局
 * **自定义布局** 按照特定的布局方式进行布局
 
-<img src="~@assets/language/layout.gif" height=560/>
-<br>
+<img src="~@assets/language/layout.gif" height=412/>
+<br>7
 
 
 
@@ -93,6 +93,7 @@
 
 为原子 **属性** 设置一个 **标识** 后，两者关系称为 **映射**。在设计稿中，这种映射是静态的；但在业务使用组件、区块时，映射可能是动态的，如不同场景的原子需要重新设置不同的标识。
 
-**[属性映射](solution/property-mapping)** 提供了一种解决方案，通过 **[属性映射表](assets.html#属性映射表)** 记录哪个场景的原子使用哪个标识，并且最终正确地应用在软件中。
+**[属性映射](solution/property-mapping)** 提供了一种解决方案，通过 **[属性映射表](assets.html#属性映射表)** 来体现这种动态映射。 设计师不需要为了属性映射去做很多工作，属性映射表的建立是随着设计、交付过程自然建立的。
+
 
 > 推荐：[属性映射解决方案](solution/property-mapping)  [属性映射表](assets.html#属性映射表)

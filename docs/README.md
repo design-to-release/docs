@@ -12,7 +12,7 @@ D2R是Design To Release（从设计到发布）的简称，旨在提供一种高
 
 <br>
 
-<img src="~@assets/intro/framework.gif" height="320" />
+<img src="~@assets/intro/framework.gif" height="280" />
 
 D2R系统底层是**设计语言**、**工作流程**、**技术标准**：
 * **设计语言** 是设计师认知的基础概念，包含原子、结构、属性、编码等概念的论述

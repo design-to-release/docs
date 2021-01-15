@@ -10,7 +10,7 @@
 原子是在结构层面不可再分的设计单元，我们所说的原子概念在具体的设计工具（如Sketch、Adobe系列软件）中与图层是等价的。
 
 <br>
-<img src="~@assets/language/atom.gif" />
+<img src="~@assets/language/atom.gif" height=160/>
 <br>
 <br>
 
@@ -25,7 +25,7 @@
 
 
 <br>
-<img src="~@assets/language/st.gif" />
+<img src="~@assets/language/st.gif"  height=180 />
 <br>
 
 ### 组件
@@ -35,7 +35,7 @@
 组件内的所有原子共用一个坐标系统，该坐标系统的原点为组件位置。
 
 <br>
-<img src="~@assets/language/c-a-relation.gif" />
+<img src="~@assets/language/c-a-relation.gif" height=280 />
 <br>
 <br>
 
@@ -57,7 +57,7 @@
 * **栅格布局** 区块内子元素按照栅格大小布局
 * **自定义布局** 按照特定的布局方式进行布局
 
-<img src="~@assets/language/layout.gif" />
+<img src="~@assets/language/layout.gif" height=560/>
 <br>
 
 
@@ -83,7 +83,7 @@
 
 为了支持一次设计多场景可用，我们使用 **标识** 。一个 **标识** 包含了不同场景下属性应有的值，例如：
 
-<img src="~@assets/language/identifier.gif" />
+<img src="~@assets/language/identifier.gif" width=560 />
 
 <br>
 

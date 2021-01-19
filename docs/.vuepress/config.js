@@ -86,10 +86,10 @@ module.exports = {
                     title: '基于OSX开发Skecth插件',
                     collapsable: false,
                     children: [
-                        'guide/00-intro.md',
-                        'guide/01-startup.md',
-                        'guide/02-oc-basis.md',
-                        'guide/02-cocoa.md'
+                        'guide/00-intro',
+                        'guide/01-startup',
+                        'guide/02-oc-basis',
+                        'guide/03-cocoa'
                     ]}
                 ]
             },

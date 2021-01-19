@@ -20,10 +20,6 @@ module.exports = {
             '/language',
             '/assets',
             {
-                title: '工作流程',
-                children: []
-            },
-            {
                 title: '解决方案',
                 children: [
                     'solution/d2c',
@@ -31,8 +27,15 @@ module.exports = {
                 ]
             },
             {
+                title: '工作流程',
+                children: []
+            },
+            {
                 title: '技术标准',
                 children: [
+                    'standard/atom',
+                    'standard/st',
+                    'standard/asset',
                     'standard/dsl'
                 ]
             },

@@ -22,8 +22,9 @@ module.exports = {
             {
                 title: '解决方案',
                 children: [
-                    'solution/d2c',
-                    'solution/property-mapping'
+                    'solution/design-draft-to-code',
+                    'solution/property-mapping',
+                    'solution/continuous-delivery'
                 ]
             },
             {

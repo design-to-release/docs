@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    title: 'Desgin To Release Workflow',
+    title: 'Solution for Desgin to Release',
     description: 'docs for d2r project',
     configureWebpack: {
         resolve: {
@@ -17,6 +17,7 @@ module.exports = {
         ],
         sidebar: [
             '/',
+            '/concept',
             '/language',
             '/assets',
             {

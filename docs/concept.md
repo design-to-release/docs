@@ -25,7 +25,17 @@
 * **功能性模式**：是界面的有形元素，让用户能够完成某种行为，或激励用户完成某种行为（如按钮、文本框）。
 * **感知性模式**：更具描述性、无形的设计元素（如颜色、布局、风格、格调）
 
-> 在业界的设计系统中，各模式存在不同的译名或名词指代，功能性模式常见称设计模式或控件、组件；感知性模式又被称为设计元素或符号、原子、样式。
+> 在业界的设计系统中，各模式存在不同的译名或名词指代，功能性模式常见称设计模式或控件、符号；感知性模式又被称为设计元素、原子、样式。
+
+<br>
+值得注意的是，在创建模式时更多的是关注模式的作用而非它是什么，通常会对模式进行结构分析其如何能够满足功能。例如，下图是四个不同版本的社交消息流模块，分布在不同的页面：
+<br><br>
+<img src="~@assets/concept/pattern-case.gif" width=500 height=144 style="border: 1px solid #DDDDDD" >
+<br><br><br>
+虽然这四个模块乍看之下很相似，但它们没有统一样式。但是对四个模块进行拆解，绘制其结构，可以看出它们是否可以统一为一种兼容所有用例的模式：
+<br><br>
+<img src="~@assets/concept/pattern-struct.gif" width=500 height=213 style="border: 1px solid #DDDDDD" >
+<br><br><br>
 
 ### 设计语言
 
@@ -65,7 +75,7 @@
 
 原子设计更多关注了 [**功能性模式**](./concept.html#模式) 的划分，最终体现在模式库的分层上。
 
-<img src="~@assets/concept/atoms-to-pages.gif" height=320/>
+<img src="~@assets/concept/atoms-to-pages.gif" width=631 height=320/>
 
 > **原子设计** 最初由 Brad Frost 在 [Atomic Design](https://atomicdesign.bradfrost.com/) 中提出。
 

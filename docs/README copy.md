@@ -57,8 +57,6 @@ D2R 是 Soulution for Design to Release 的简称，旨在提供从产品设计�
 
 <br>
 
-<img src="~@assets/intro/framework.gif" height="200" />
-
 D2R系统底层是**设计语言**、**工作流程**、**技术标准**：
 * **设计语言** 是设计遵循的规则
 * **工作流程** 涉及设计稿交付到发布环节，描述不同角色如何在平台协同

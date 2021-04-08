@@ -28,15 +28,18 @@ D2R 是 Soulution for Design to Release 的简称，旨在提供从产品设计�
 **建立设计系统** ：由设计专家主导设计系统的建立，通常在平台管理工具进行维护，并及时同步内容到各团队的设计师、产品经理所使用的设计工具；设计控件变更时，代码组件也会智能变更并触发变更流水线，等待前端专家介入，完成校验、调整与最终发布。
 <br>
 <br>
-<img src="~@assets/intro/ucd_create_design_system.gif"  height="316" />
+<img src="~@assets/intro/ucd_create_design_system.gif"  height="302" />
 <br>
 <br>
 
 
-**基于模式库设计**
-
-
-**设计稿交付**
+**视觉设计**：视觉设计师通过工具获取团队设计系统的资源，并在按照组件化的方式进行设计。为此设计工具提供了关于布局、组件嵌套、组件元信息设置、样式选择等一系列功能来保证组件化设计的实现。在交付环节，除了设计稿的交付，设计师也可以选择可复用的部分提交为业务控件。
+<br>
+<br>
+<img src="~@assets/intro/ucd_design_in_tool.gif"  height="302" />
+<br>
+<br>
+**持续交付**
 
 ## 内置特性
 
